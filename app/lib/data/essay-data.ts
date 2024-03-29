@@ -3,7 +3,7 @@ export const essayData = [
         title: "To Change Rapidly",
         date: "March 29, 2024",
         link: "metamorphosis",
-        post: "(coming soon...)"
+        post: "coming soon..."
     },
     {
         title: "Starts From Here",
