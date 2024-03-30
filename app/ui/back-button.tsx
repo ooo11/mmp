@@ -25,10 +25,10 @@ export function BackToEssayListButton() {
     return (
         <Link
             href="/essays"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-5 lg:py-8 py-10 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
         >
-            <h2 className={` text-2xl font-semibold`}>
+            <h2 className={`lg:text-2xl text-xl font-semibold`}>
                 <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                     <ArrowLeftIcon className="w-5 h-5" />
                 </span>

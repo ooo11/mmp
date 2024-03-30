@@ -29,12 +29,12 @@ export default function EssayPage({ params }: { params: { link: string } }) {
     }
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div>
-                <p className="text-2xl font-semibold">{essay.title} Page</p>
+        <main className="flex min-h-screen flex-col items-center justify-between lg:p-24 lg:mx-40 sm:mx-12">
+            <div className="lg:mx-8 p-10">
+                <p className="text-2xl font-semibold">{essay.title}</p>
                 <p>{essay.date}</p>
             </div>
-            <div className="lg:max-w-xl lg:w-full/2 lg:mb-0 tracking-wide leading-loose antialiased whitespace-pre-wrap">
+            <div className="lg:max-w-xl lg:w-full/2 lg:mb-4 mt-10 mx-8 tracking-wide leading-loose antialiased whitespace-pre-wrap text-justify">
                 <p>{essay.post}</p>
             </div>
             <BackToEssayListButton />

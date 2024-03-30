@@ -11,7 +11,7 @@ export default function EssayButton({ title, date, link }: EssayType) {
         <div className="grid text-center lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
             <Link
                 href={`/essays/${link}`}
-                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                className="group rounded-lg border border-transparent px-5 lg:py-4 p-0 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
             >
                 <h2 className={`mb-0 text-2xl font-semibold`}>
