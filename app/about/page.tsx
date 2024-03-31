@@ -10,7 +10,7 @@ export default function About() {
             <div className="lg:max-w-xl lg:w-full/2 lg:mb-4 mt-10 mx-8 tracking-wide leading-loose antialiased whitespace-pre-wrap text-justify">
                 <p>
                     Spent five years repairing ships and coding during my free time. I&apos;ve recently left my job as a service engineer to pursue
-                    a career as a full-time web developer. I earned my degree in Electrical and Telecommunications Engineering from Okayama
+                    a career as a full-time web developer and to build my own business from scratch. I earned my degree in Electrical and Telecommunications Engineering from Okayama
                     University in Japan, where my final year project focused on researching thermoelectrics to convert heat into electricity.
                 </p>
                 <p className="mt-10">

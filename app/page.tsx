@@ -1,6 +1,12 @@
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Mark Mizuro',
+  description: '..left my job as a service engineer to pursue a career as a full-time web developer and to build my own business from scratch.',
+  metadataBase: new URL('https:markmizuro.com'),
+};
 
 export default function Home() {
   return (
