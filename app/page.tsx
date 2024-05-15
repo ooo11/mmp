@@ -47,28 +47,28 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Build yours{" "}
+            Subscribe{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               <ArrowRightIcon className="w-5 h-5" />
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Want to build your landing page like this?
+            Join my newsletter
           </p>
         </Link>
 
         <Link
-          href="/quotes"
+          href="/uras"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Quotes{" "}
+          <h2 className={`mb-3 text-2xl text-yellow-500 font-semibold`}>
+            Uras{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               <ArrowRightIcon className="w-5 h-5" />
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Lines that are highlighted yellow on the books I&apos;ve read.
+          <p className={`m-0 max-w-[30ch] text-sm text-yellow-500 opacity-50`}>
+            Dengar Podcast Uras kmkorg ctok.
           </p>
         </Link>
         <a
