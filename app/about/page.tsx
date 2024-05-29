@@ -19,6 +19,9 @@ export default function About() {
                     animated text screen. Post-graduation, I secured an internship at a local food delivery app company, where I expanded my skills in NodeJS, AngularJS, and Git. During the lockdown in 2020, I dedicated my time to learning the basics, such as JavaScript and
                     React. Since then, I&apos;ve been coding to explore my potential to build my own websites.
                 </p>
+                <p className="mt-10">
+                    Putting my coding journey aside, building Uras, a podcast on how to build a business.
+                </p>
 
             </div>
 
